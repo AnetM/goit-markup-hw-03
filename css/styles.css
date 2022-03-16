@@ -140,6 +140,7 @@ h2 {
   margin-top: 0;
 
   padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 /* Features */
@@ -154,6 +155,7 @@ h2 {
   text-transform: uppercase;
 
   padding-top: 94px;
+  margin-bottom: 10px;
 }
 .feature-list {
   list-style: none;
@@ -171,6 +173,8 @@ h2 {
   display: flex;
   justify-content: center;
   list-style: none;
+
+  padding-bottom: 94px;
 }
 
 /* Нашы сотрудники */
@@ -206,6 +210,7 @@ h2 {
 
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.87;
 
   margin-bottom: 200px;
   padding: 10px 32px 10px 32px;
@@ -225,8 +230,27 @@ footer {
   background-color: #2f303a;
 }
 
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.logo-half-one {
+  color: var(--accent-color);
+}
+
 .footer .logo-half-two {
   color: #ffffff;
+}
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress {
