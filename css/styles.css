@@ -1,0 +1,243 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575;
+ */
+/* белый #E5E5E5  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #2196F3; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --hero-adress-title-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
+}
+
+.feature-list,
+.whatwedo-list {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Header */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.logo-half-one {
+  color: var(--accent-color);
+}
+
+.logo-half-two {
+  color: #000;
+}
+
+/* Site nav */
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.mail,
+.tel {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+
+.hero-title {
+  color: var(--hero-adress-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  margin-top: 0;
+  padding-top: 200px;
+}
+
+.section.hero {
+  background-color: #2f303a;
+
+  width: 1600px;
+
+  margin: 0 auto;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-color);
+  margin-top: 0;
+
+  padding-top: 94px;
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+
+  padding-top: 94px;
+}
+.feature-list {
+  list-style: none;
+}
+
+.feature-list .text {
+  color: var(--primary-text-color);
+
+  margin-bottom: 0;
+}
+
+/* Чем мы занимаемся */
+
+.whatwedo-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+/* Нашы сотрудники */
+
+.employees-section {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+}
+.employees-list {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.employees-list .text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+
+  margin-bottom: 0;
+}
+
+/* Button */
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+
+  margin-bottom: 200px;
+  padding: 10px 32px 10px 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  min-width: 200px;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer .logo-half-two {
+  color: #ffffff;
+}
+
+.adress {
+  color: var(--hero-adress-title-color);
+  font-style: normal;
+
+  font-weight: 400;
+}
+
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
