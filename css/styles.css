@@ -29,10 +29,23 @@ body {
   outline: 2px solid tomato;
 }
 
+.container.nav {
+  height: 80px;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .feature-list,
 .whatwedo-list {
   padding: 0;
   margin: 0;
+}
+
+.feature-list .text {
+  width: 270px;
 }
 
 h2 {
@@ -52,6 +65,8 @@ h2 {
   letter-spacing: 0.02em;
 
   text-decoration: none;
+
+  margin-right: 93px;
 }
 
 .logo-half-one {
@@ -64,6 +79,11 @@ h2 {
 
 /* Site nav */
 
+.container-main-nav {
+  display: flex;
+  margin-right: auto;
+}
+
 .list {
   list-style: none;
   margin: 0;
@@ -71,7 +91,11 @@ h2 {
 }
 
 .site-nav {
+  display: flex;
+  width: 294px;
   text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .site-nav .link {
@@ -91,6 +115,21 @@ h2 {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-nav.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tel {
+  margin-left: 50px;
 }
 
 .mail,
@@ -165,13 +204,14 @@ h2 {
   color: var(--primary-text-color);
 
   margin-bottom: 0;
+  padding-bottom: 94px;
 }
 
 /* Чем мы занимаемся */
 
 .whatwedo-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
 
   padding-bottom: 94px;
@@ -192,6 +232,9 @@ h2 {
 
   margin: 0;
   padding: 0;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .employees-list .text {
@@ -199,6 +242,7 @@ h2 {
   font-weight: 400;
 
   margin-bottom: 0;
+  padding-bottom: 94px;
 }
 
 /* Button */
@@ -238,6 +282,11 @@ footer {
   letter-spacing: 0.02em;
 
   text-decoration: none;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .logo-half-one {
