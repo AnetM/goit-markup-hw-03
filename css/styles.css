@@ -241,8 +241,13 @@ h2 {
   color: var(--primary-text-color);
   font-weight: 400;
 
-  margin-bottom: 0;
-  padding-bottom: 94px;
+  margin-bottom: 30px;
+}
+
+.employee.box {
+  background-color: #ffffff;
+
+  margin-bottom: 94px;
 }
 
 /* Button */
